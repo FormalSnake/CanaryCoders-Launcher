@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  flex-direction: row;
+  display: flex;
+  background-color: rebeccapurple;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 550px;
+}
+
+.App-body {
+  background-color: rgba(green, green, green, 0);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Blur{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  backdrop-filter: blur(10px);
+}
