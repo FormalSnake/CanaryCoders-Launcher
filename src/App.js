@@ -10,7 +10,7 @@ function App() {
   window.React2 = require('react');
   console.log(window.React1 === window.React2);*/
 
-  const [current_game, setGame] = useState(null);
+  const [current_game, setGame] = useState(gamebutton_items[0]);
 
   
   const doClick = (i) =>{
