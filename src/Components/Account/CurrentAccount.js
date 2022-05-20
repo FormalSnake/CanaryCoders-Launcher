@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Typography } from "@mui/material";
+import AccountSettings from "./AccountPage";
 
 //link it to your account system
 function AccountBox() {
@@ -11,7 +12,7 @@ function AccountBox() {
   );
 }
 function OnClick() {
-  return console.log("Hi");
+  return console.log("Account page here");
 }
 
 export default AccountBox;

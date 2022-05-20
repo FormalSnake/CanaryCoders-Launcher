@@ -44,7 +44,6 @@ function App() {
           ></GameButton>
         ))}
       </div>
-
       {!!current_game && (
         <GamePage
           DownloadGame={DownloadGame()}

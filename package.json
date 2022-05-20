@@ -1,7 +1,7 @@
 {
-  "name": "Launcher",
+  "name": "launcher",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
@@ -20,6 +20,7 @@
   "main": "./electron.js",
   "scripts": {
     "start": "react-scripts start",
+    "startnotbrowser": "concurrently -k \"BROWSER=none npm start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
