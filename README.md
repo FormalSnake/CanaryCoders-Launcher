@@ -24,7 +24,12 @@ This project is made using Electron and React.
 
 # What does it look like?
 
+## Dark Mode (uses system settings)
+
 ![Dark Mode](https://github.com/superlopez-real/CanaryCoders-Launcher/blob/master/DarkMode.png?raw=true)
+
+## Light Mode (uses system settings)
+
 ![Light Mode](https://github.com/superlopez-real/CanaryCoders-Launcher/blob/master/LightMode.png?raw=true)
 
 ## Available Scripts
