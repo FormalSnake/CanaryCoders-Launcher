@@ -1,25 +1,33 @@
-import '../App.css';
-import * as React from 'react';
-import { Button } from '@mui/material';
-import { Typography } from '@mui/material';
+import "../App.css";
+import * as React from "react";
+import { Button } from "@mui/material";
+import { Typography } from "@mui/material";
+import News from "./NewsButton";
 
-function GamePage(props){
-    const {DownloadGame} = props;
-    return(
-        <div className="App-body" /*style={{
+function GamePage(props) {
+  const { DownloadGame } = props;
+  return (
+    <div
+      className="App-body" /*style={{
           backgroundImage: `url(${props.gameimage})`
-        }}*/>
-           <Typography>{props.title}</Typography>
-            <div className="Blur">
-              <Button variant="outlined" sx={{
-                  width: 300,
-                  height: 50,
-                }} onClick={DownloadGame}>
-                PLAY GAME
-              </Button>
-            </div>
-        </div>
-    );
+        }}*/
+    >
+      <div className="Blur">
+        <Typography>{props.title}</Typography>
+        <Button
+          variant="outlined"
+          sx={{
+            width: 300,
+            height: 50,
+          }}
+          onClick={DownloadGame}
+        >
+          PLAY GAME
+        </Button>
+      </div>
+      <News content={props.RecentNews} NewsImage={props.NewsImage}></News>
+    </div>
+  );
 }
 
 export default GamePage;

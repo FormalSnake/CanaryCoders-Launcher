@@ -1,6 +1,6 @@
 const path = require("path");
 
-const { app, BrowserWindow } = require("electron");
+const { app, BrowserWindow, shell } = require("electron");
 const isDev = require("electron-is-dev");
 
 function createWindow() {
@@ -10,6 +10,7 @@ function createWindow() {
     height: 800,
     webPreferences: {
       nodeIntegration: true,
+      preload: path.join(__dirname, "preload.js"),
     },
   });
 
@@ -20,6 +21,7 @@ function createWindow() {
       ? "http://localhost:3000"
       : `file://${path.join(__dirname, "../build/index.html")}`
   );
+
   // Open the DevTools.
   if (isDev) {
     win.webContents.openDevTools({ mode: "attach" });

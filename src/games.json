@@ -1,14 +1,20 @@
 [
   {
-    "title": "Nuclearity",
-    "gameimage": "./Pictures/NUCLEARITY.jpeg"
+    "title": "Drift Game",
+    "gameimage": "./Pictures/NUCLEARITY.jpeg",
+    "RecentNews": "Yes i drifted!!!!",
+    "NewsImage": "./Pictures/NEWS/Drift/driftnews1.jpeg"
   },
   {
-    "title": "Capture The Flag Ultimate",
-    "gameimage": "./Pictures/CTFU.jpeg"
+    "title": "Cat Distracter",
+    "gameimage": "./Pictures/CTFU.jpeg",
+    "RecentNews": "My cat hates this",
+    "NewsImage": "./Pictures/NEWS/CatDistracter/catnews1.jpeg"
   },
   {
-    "title": "Untitled Water Physics Game",
-    "gameimage": "./Pictures/UWPG.jpeg"
+    "title": "Personal Project",
+    "gameimage": "./Pictures/UWPG.jpeg",
+    "RecentNews": "what",
+    "NewsImage": "./Pictures/CTFU.jpeg"
   }
 ]
