@@ -15,6 +15,13 @@ This project is made using Electron and React.
 - [ ] Settings Menu.
 - [x] Recent News.
 
+# To-Do (Settings Menu)
+
+- [ ] Settings Category Menu.
+- [ ] Settings Menu.
+- [ ] Saving settings on your account.
+- [ ] Having settings actually change something.
+
 # To-Do (BackEnd)
 
 - [ ] Blacklist so that only the Launcher can access the files.
