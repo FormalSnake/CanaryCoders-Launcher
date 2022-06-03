@@ -1,3 +1,5 @@
+# Canary-Coders open source game launcher.
+
 # What is this project built with?
 
 This project is made using Electron and React.
